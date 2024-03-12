@@ -8,15 +8,15 @@ import java.util.Scanner;
         System.out.println("Enter number to Check: ");
         n=sc.nextInt();
         i=1;//inilization 
-        while(i<=n) {
+        while(n>=i) {
         if(n%i==0)
-        count=count+i;
+        count=count+1;
         i=i+1;
         } 
         if(count==2)
         System.out.println("Prime");
         else
-        System.out.println("Non Prime");
+        System.out.println("non Prime");
         
     }
 }
