@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-//boolean java.util.ArrayList.removeAll;
 
 public class car {
     public static void main(String[] args) {
@@ -23,13 +22,5 @@ public class car {
         for (String cycleItem : cycle) {
             System.out.println(cycleItem);
         }
-        // boolean changed = ArrayList.removeAll(cycle);
-        // if (changed)
-        // System.out.println("Collection removed");
-        // else
-        // System.out.println("Collection not removed");
-
-        // Print the final Stack
-        // System.out.println("Final Array: " + ArrayList);
     }
 }
