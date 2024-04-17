@@ -8,8 +8,8 @@ class Addition
         System.out.println("Enter First Number:");
         a=sc.nextInt();
         System.out.println("Enter Second Number:");
-         b=sc.nextInt();
-        c=a+b; 
-        System.out.println("Addition="+c);
+        b = aa.nextInt();
+        c = a + b;
+        System.out.println("Addition=" + c);
     }
 }
